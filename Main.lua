@@ -2081,7 +2081,7 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
     Toggle.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
     Toggle.Size = UDim2.new(0, 50, 0, 50)
     Toggle.Font = Enum.Font.Code
-    Toggle.Text = "R"
+    Toggle.Text = "B"
     Toggle.TextColor3 = Color3.fromRGB(255, 0, 0)
     Toggle.TextScaled = true
     Toggle.MouseButton1Down:connect(function()
@@ -2089,7 +2089,7 @@ if game.PlaceId == 2753915549 or game.PlaceId == 4442272183 or game.PlaceId == 7
         game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
     end)
     --------------------------------------------------------------------
-    local RenUi = library:AddWindow("Ren Hub | BF",Enum.KeyCode.RightControl)
+    local RenUi = library:AddWindow("Binbinvogaming hub",Enum.KeyCode.RightControl)
     --------------------------------------------------------------------
     local Main = RenUi:AddTab("Auto Farm","6026568198")
     local Combat = RenUi:AddTab("Combat","7251993295")
